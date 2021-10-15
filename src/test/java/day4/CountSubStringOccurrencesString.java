@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class CountSubStringOccurrencesString {
     public static void main(String[] args) {
-        String str = "Hello world Hello world Hello world";
+        String str = "Hello world Hello world Hello world Hello";
         String findStr = "Hello";
         System.out.println(count(str, findStr));
 
